@@ -1,0 +1,174 @@
+article.profielen {
+    position:relative;
+}
+
+
+.container {
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    position:relative;
+    border-radius: 15px;
+    border: 3px solid gold;
+    
+
+}
+.card {
+    width: 16.6%;
+    border: 1px solid #55A79C;
+    height: 180px;
+    background: white;
+    cursor:pointer;
+    border-radius: 5px;
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.card-img-top {
+    object-fit:cover;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: block;
+    margin: 5px auto;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-size: .9rem;
+    text-align:center;
+}
+
+.card-text {
+    font-size: .7rem;
+}
+
+.imagefit {
+      width: 200px;
+      height: 200px;
+      border: 3px solid firebrick;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      /*possible values, cover, contain, scale-down, fill*/
+   }
+   .imagefit img {
+    object-fit:cover;
+    width: 180px;
+    height: 180px;
+    display: block;
+    border: 2px solid silver;
+  }
+
+img {
+
+    width: 100px;
+    display: block;
+}
+
+
+/* MODAL IS NU MET DISPLAY NON EN NOT ANIMATED*/
+#modalleke {
+    display:none;
+    position:absolute;
+    width:100%;
+    min-height: 100%;
+    
+    opacity:0.95;
+    background: white;
+    left: 0px;
+    top:0px;
+    z-index: 4;
+    font-size: 1em;
+    color: black;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#modalleke img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit:cover;
+    
+    border-radius: 15px;
+    opacity: 1;
+}
+
+.closeModal {
+    width: 80px;
+    height:80px;
+    background-color: firebrick;
+    cursor:pointer;
+    position:absolute;
+    top: 05px;
+    right: 20px;
+    color: white;
+    font-size: 1em;
+    opacity: 1;
+    z-index: 4;
+            border-radius: 50%;
+            line-height: 80px;
+            text-align:center;
+}
+
+.fas {
+            z-index: 5;
+            font-size: 3em;
+        }
+
+#head {
+    font-size: 3em;
+    min-height: 200px;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 10px;
+    border: 1px solid darkorange;
+}
+
+.bvnaam, .bnaam {
+    text-transform: capitalize;
+}
+
+.bomschrijving {
+    width: 50%;
+    text-align:center;
+    font-size: 1.2rem;
+    border: 1px solid gold;
+}
+
+.bwaarom, .bwat, .bwaarde {
+    width: 70%;
+    border: 1px solid darkorange;
+    margin:5px;
+}
+
+.bwaarom h4 , .bwat h4, .bwaarde h4{
+    font-size: 1.2rem;
+    width: 100%;
+    text-transform: capitalize;
+
+}
+
+.pdflink {
+    background: skyblue;
+    width: 180px;
+    height: 40px;
+    border: 1px solid white;
+    display:block;
+    margin: 30px 0;
+    text-decoration:none;
+    color: white;
+
+}
