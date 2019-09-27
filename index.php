@@ -194,7 +194,7 @@ type="text/css"
                     <div class="closeModal fas fa-times">
                         
                     </div>
-                     <div id="head"></div>
+                     
                 </div> 
                 <?php
     require_once('inc/verbind.inc.php');
